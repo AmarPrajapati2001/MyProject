@@ -1,7 +1,12 @@
-module.exports = {
-  arrowParens: 'avoid',
-  bracketSameLine: true,
-  bracketSpacing: false,
+const config = {
+  printWidth: 80,
   singleQuote: true,
-  trailingComma: 'all',
+  trailingComma: 'es5',
+  semi: true,
+  endOfLine: 'lf',
+  jsxSingleQuote: false,
+  tabWidth: 2,
+  arrowParens: 'always',
 };
+
+module.exports = config;
